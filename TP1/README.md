@@ -18,39 +18,6 @@ Bienvenue dans le **TP1 Java - Gestion d'une Médiathèque** réalisé dans le c
 
 Ce TP a pour objectif de mettre en œuvre une application Java permettant de gérer une médiathèque. Il illustre les concepts fondamentaux de la programmation orientée objet tels que l'héritage, l'encapsulation et la gestion des collections. Le TP comprend la création de classes pour différents types de médias (Livres et Films) ainsi qu'une classe de gestion de la médiathèque elle-même.
 
-## Structure du TP
-
-Le TP est organisé de la manière suivante :
-
-```
-.
-├── Film.java
-├── Livre.java
-├── Media.java
-├── Mediatheque.java
-├── Rapport
-│   └── TP1 Java.pdf
-├── TestFilm.java
-├── TestLivre.java
-├── TestMediatheque.java
-├── diagrams
-│   ├── Film.png
-│   ├── Livre.png
-│   ├── Media.png
-│   ├── Mediatheque.png
-│   ├── TestFilm.png
-│   ├── TestLivre.png
-│   └── TestMediatheque.png
-└── uml
-    ├── Film.puml
-    ├── Livre.puml
-    ├── Media.puml
-    ├── Mediatheque.puml
-    ├── TestFilm.puml
-    ├── TestLivre.puml
-    └── TestMediatheque.puml
-```
-
 ### Description des Dossiers et Fichiers
 
 - **Classes Java**
