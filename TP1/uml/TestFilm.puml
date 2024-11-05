@@ -1,0 +1,12 @@
+@startuml
+actor Utilisateur
+participant TestFilm
+participant Film
+
+Utilisateur -> TestFilm: main(args)
+TestFilm -> Film: new Film("Inception", "F001", 5, "Christopher Nolan", 2010)
+TestFilm -> Film: toString()
+TestFilm -> Film: setAnnee(2011)
+TestFilm -> Film: getAnnee()
+TestFilm -> Utilisateur: print("Après modification de l'année : " + annee)
+@enduml

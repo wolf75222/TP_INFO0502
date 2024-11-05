@@ -1,0 +1,12 @@
+@startuml
+actor Utilisateur
+participant TestLivre
+participant Livre
+
+Utilisateur -> TestLivre: main(args)
+TestLivre -> Livre: new Livre("Le Petit Prince", "L001", 5, "Antoine de Saint-Exupéry", "978-0156013987")
+TestLivre -> Livre: toString()
+TestLivre -> Livre: setNote(4)
+TestLivre -> Livre: getNote()
+TestLivre -> Utilisateur: print(note)
+@enduml

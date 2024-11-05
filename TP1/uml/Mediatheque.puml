@@ -1,0 +1,12 @@
+@startuml
+class Mediatheque {
+    - String proprietaire
+    - Vector<Media> medias
+    + Mediatheque()
+    + Mediatheque(Mediatheque m)
+    + String getProprietaire()
+    + void setProprietaire(String proprietaire)
+    + void add(Media media)
+    + String toString()
+}
+@enduml

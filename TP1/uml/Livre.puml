@@ -1,0 +1,18 @@
+@startuml
+class Livre {
+    - String auteur
+    - String isbn
+    + Livre()
+    + Livre(String titre, String cote, int note, String auteur, String isbn)
+    + Livre(Livre l)
+    + String getAuteur()
+    + void setAuteur(String auteur)
+    + String getIsbn()
+    + void setIsbn(String isbn)
+    + String toString()
+    + boolean equals(Object obj)
+    + Object clone()
+}
+
+Media <|-- Livre
+@enduml

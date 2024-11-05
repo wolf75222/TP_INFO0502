@@ -1,0 +1,17 @@
+@startuml
+actor Utilisateur
+participant TestMediatheque
+participant Mediatheque
+participant Livre
+participant Film
+
+Utilisateur -> TestMediatheque: main(args)
+TestMediatheque -> Mediatheque: new Mediatheque()
+TestMediatheque -> Mediatheque: setProprietaire("Jean Dupont")
+TestMediatheque -> Livre: new Livre("1984", "L002", 4, "George Orwell", "978-0451524935")
+TestMediatheque -> Film: new Film("The Matrix", "F002", 5, "The Wachowskis", 1999)
+TestMediatheque -> Mediatheque: add(livre)
+TestMediatheque -> Mediatheque: add(film)
+TestMediatheque -> Mediatheque: toString()
+TestMediatheque -> Utilisateur: print(mediatheque)
+@enduml

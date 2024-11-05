@@ -1,0 +1,22 @@
+@startuml
+class Media {
+    - String titre
+    - StringBuffer cote
+    - int note
+    - static String nom
+    + Media()
+    + Media(String titre, String cote, int note)
+    + Media(Media m)
+    + String getTitre()
+    + void setTitre(String titre)
+    + StringBuffer getCote()
+    + void setCote(String cote)
+    + int getNote()
+    + void setNote(int note)
+    + static String getNom()
+    + static void setNom(String nom)
+    + String toString()
+    + boolean equals(Object obj)
+    + Object clone()
+}
+@enduml

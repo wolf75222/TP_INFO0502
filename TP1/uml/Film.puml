@@ -1,0 +1,18 @@
+@startuml
+class Film {
+    - String realisateur
+    - int annee
+    + Film()
+    + Film(String titre, String cote, int note, String realisateur, int annee)
+    + Film(Film f)
+    + String getRealisateur()
+    + void setRealisateur(String realisateur)
+    + int getAnnee()
+    + void setAnnee(int annee)
+    + String toString()
+    + boolean equals(Object obj)
+    + Object clone()
+}
+
+Media <|-- Film
+@enduml
