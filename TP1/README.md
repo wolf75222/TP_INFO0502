@@ -2,19 +2,6 @@
 
 Bienvenue dans le **TP1 Java - Gestion d'une Médiathèque** réalisé dans le cadre du cours **INFO0502 - Introduction à la programmation répartie** à l'**Université de Reims Champagne Ardennes**.
 
-## Table des Matières
-
-- [TP1 Java - Gestion d'une Médiathèque](#tp1-java---gestion-dune-médiathèque)
-  - [Table des Matières](#table-des-matières)
-  - [Introduction](#introduction)
-    - [Description des Dossiers et Fichiers](#description-des-dossiers-et-fichiers)
-  - [Compilation et Exécution](#compilation-et-exécution)
-    - [Compilation des Classes](#compilation-des-classes)
-    - [Exécution des Programmes de Test](#exécution-des-programmes-de-test)
-  - [Tests Unitaires](#tests-unitaires)
-  - [Diagrammes UML](#diagrammes-uml)
-    - [Aperçu des Diagrammes](#aperçu-des-diagrammes)
-  - [Rapport](#rapport)
 
 ## Introduction
 
